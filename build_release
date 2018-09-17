@@ -40,14 +40,8 @@ echo "# Compress fonts...";
 build_zip "original" \
           "Original/SpoqaHanSans";
 
-build_zip "jp_original" \
-          "Original/SpoqaHanSans_JP";
-
 build_zip "subset" \
           "Subset/SpoqaHanSans";
-
-build_zip "jp_subset" \
-          "Subset/SpoqaHanSans_JP";
 
 echo "* release $release_all_name";
 cd "$release_base_dir";

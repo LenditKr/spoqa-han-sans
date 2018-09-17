@@ -2,7 +2,6 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 pip install fonttools brotli
 mkdir -p $DIR/Subset/SpoqaHanSans
-mkdir -p $DIR/Subset/SpoqaHanSans_JP
 for ext in ttf woff woff2; do
   for p in $DIR/Original/**/*.ttf; do
     filename=$(basename "$p")
