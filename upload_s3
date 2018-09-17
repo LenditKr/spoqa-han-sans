@@ -15,6 +15,5 @@ upload_files()
 }
 
 upload_files "Subset/SpoqaHanSans" SpoqaHanSans SpoqaHanSans-
-upload_files "Subset/SpoqaHanSans_Caret" SpoqaHanSans SpoqaHanSans
 
 aws cloudfront create-invalidation --distribution-id $AWS_DISTRIBUTION_ID --paths /SpoqaHanSans\*
